@@ -1,0 +1,5 @@
+{
+  "extends": "@acme/tsconfig/react",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

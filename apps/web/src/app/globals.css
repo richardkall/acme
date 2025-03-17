@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import "@acme/ui/theme.css";
+
+@source "../../node_modules/@acme/ui";

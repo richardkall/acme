@@ -1,0 +1,25 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "linter": {
+    "rules": {
+      "nursery": {
+        "useSortedClasses": {
+          "fix": "safe",
+          "level": "warn",
+          "options": {
+            "functions": ["cn"]
+          }
+        }
+      }
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "defaultBranch": "main",
+    "useIgnoreFile": true
+  }
+}

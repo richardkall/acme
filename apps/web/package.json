@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "check-types": "tsc",
+    "dev": "next dev --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@acme/ui": "workspace:*",
+    "next": "15.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "workspace:*",
+    "@tailwindcss/postcss": "4.0.15",
+    "@types/node": "22.13.11",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "postcss": "8.5.3",
+    "tailwindcss": "4.0.15",
+    "typescript": "5.8.2"
+  }
+}
