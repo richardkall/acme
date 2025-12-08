@@ -1,0 +1,19 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
+  "files": {
+    "includes": ["**", "!**/routeTree.gen.ts", "!**/worker-configuration.d.ts"]
+  },
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  }
+}

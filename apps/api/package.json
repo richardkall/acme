@@ -1,0 +1,21 @@
+{
+  "name": "@acme/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy --minify",
+    "dev": "wrangler dev",
+    "generate-types": "wrangler types",
+    "test": "bun test --pass-with-no-tests",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@acme/db": "workspace:*",
+    "hono": "4.10.8"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "workspace:*",
+    "typescript": "catalog:",
+    "wrangler": "catalog:"
+  }
+}

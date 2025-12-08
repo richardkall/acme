@@ -1,0 +1,36 @@
+{
+  "name": "@acme/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "wrangler deploy",
+    "dev": "vite dev --port 3000",
+    "generate-types": "wrangler types",
+    "preview": "vite preview",
+    "test": "bun test --pass-with-no-tests",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.90.12",
+    "@tanstack/react-router": "1.140.1",
+    "@tanstack/react-router-ssr-query": "1.140.1",
+    "@tanstack/react-start": "1.140.1",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "workspace:*",
+    "@cloudflare/vite-plugin": "1.17.0",
+    "@tailwindcss/vite": "4.1.17",
+    "@tanstack/router-plugin": "1.140.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.2",
+    "tailwindcss": "4.1.17",
+    "typescript": "catalog:",
+    "vite": "7.2.7",
+    "vite-tsconfig-paths": "5.1.4",
+    "wrangler": "catalog:"
+  }
+}

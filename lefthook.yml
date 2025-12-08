@@ -1,0 +1,12 @@
+pre-commit:
+  jobs:
+    - run: biome check --write {staged_files}
+      glob: "*.{css,js,json,jsonc,ts,tsx}"
+      stage_fixed: true
+
+pre-push:
+  parallel: true
+  jobs:
+    - run: bun run typecheck
+    - run: bun run lint
+    - run: bun run test

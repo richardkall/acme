@@ -1,0 +1,7 @@
+.DS_Store
+.env
+.tanstack/
+.wrangler/
+*.log
+dist/
+node_modules/

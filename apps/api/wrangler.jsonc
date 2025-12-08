@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "acme-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-02",
+  "compatibility_flags": ["nodejs_compat"],
+  "send_metrics": false,
+  "observability": {
+    "enabled": true
+  },
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "c17a3ed13f1245b7aca90f5553097303"
+    }
+  ]
+}
